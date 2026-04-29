@@ -1,3 +1,5 @@
+# The Challenge: Sudoku Board ValidatorGoal: Determine if a $9 \times 9$ Sudoku board is valid.Rules:Each row, column, and $3 \times 3$ sub-box must contain the digits $1-9$ without repetition.Note: The board can be partially filled (empty cells are represented by ".").What it tests:Nested loops and grid traversal.Mapping and tracking values (using Dictionaries or Sets).Modular arithmetic (to identify the $3 \times 3$ sub-boxes).
+
 #Code practice
 import random
 
