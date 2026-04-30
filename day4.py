@@ -1,3 +1,18 @@
+"""The Challenge: The Inventory Restocker
+Goal: Write a function update_inventory(current_stock, incoming_shipment, max_capacity) that updates a warehouse's stock levels.
+
+Constraints:
+
+Merge Stocks: Add the quantities from incoming_shipment to current_stock.
+
+The "Max Cap" Rule: If adding an item exceeds the max_capacity for that specific item, you must cap it at that maximum and return a list of "Overflow" items (the amount that couldn't be stored).
+
+New Items: If an item in the shipment isn't in the current stock, add it (still respecting the capacity).
+
+Data Integrity: If a shipment quantity is negative, ignore that specific item (don't subtract from stock)."""
+
+#Inventory Management" system.
+
 def update_inventory(current_stock, incoming_shipment, max_capacity):
     overflow = {}
 
