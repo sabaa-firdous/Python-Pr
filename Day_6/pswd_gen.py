@@ -23,6 +23,7 @@ nr_symbols=int(input('How many special characters you want in your Password?'))
 
 
 #Smart and Hard way 
+#random.choice() and loop is better because if user ask for a password larger than the total number of characters in the list it will nit crash but random.sample() will.
 
 passwordl=[]
 for char in range(0, nr_letters):
